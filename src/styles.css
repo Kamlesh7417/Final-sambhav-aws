@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: 249 115 22;
+    --color-accent: 139 92 246;
+  }
+  
+  body {
+    @apply bg-white text-gray-900;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/80 backdrop-blur-lg rounded-xl border border-white/20;
+    box-shadow: 
+      0 8px 32px 0 rgba(31, 38, 135, 0.07),
+      inset 0 0 32px 0 rgba(31, 38, 135, 0.02);
+  }
+
+  .btn {
+    @apply px-4 py-2 rounded-lg transition-all duration-300;
+  }
+
+  .btn-primary {
+    @apply bg-gradient-to-r from-primary-500 to-accent-500 text-white hover:from-primary-600 hover:to-accent-600;
+  }
+
+  .btn-secondary {
+    @apply border-2 border-gray-300 hover:border-primary-500 hover:text-primary-600 hover:bg-primary-50;
+  }
+
+  .nav-link {
+    @apply flex items-center space-x-2 px-3 py-2 rounded-lg transition-all duration-300 hover:bg-primary-50;
+  }
+
+  .nav-link.active {
+    @apply text-primary-600 font-semibold bg-primary-50;
+  }
+}

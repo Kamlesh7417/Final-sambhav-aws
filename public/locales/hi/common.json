@@ -1,0 +1,52 @@
+{
+  "languages": {
+    "en": "English",
+    "hi": "हिंदी",
+    "ta": "தமிழ்",
+    "te": "తెలుగు",
+    "bn": "বাংলা",
+    "gu": "ગુજરાતી",
+    "kn": "ಕನ್ನಡ",
+    "ml": "മലയാളം",
+    "mr": "मराठी",
+    "pa": "ਪੰਜਾਬੀ"
+  },
+  "nav": {
+    "dashboard": "डैशबोर्ड",
+    "orders": "ऑर्डर",
+    "documents": "दस्तावेज़",
+    "shipments": "शिपमेंट",
+    "chat": "चैट",
+    "logout": "लॉग आउट"
+  },
+  "actions": {
+    "create": "बनाएं",
+    "edit": "संपादित करें",
+    "delete": "हटाएं",
+    "save": "सहेजें",
+    "cancel": "रद्द करें",
+    "close": "बंद करें",
+    "back": "वापस",
+    "next": "अगला",
+    "search": "खोजें",
+    "filter": "फ़िल्टर",
+    "view": "देखें",
+    "download": "डाउनलोड"
+  },
+  "status": {
+    "processing": "प्रोसेसिंग",
+    "inTransit": "परिवहन में",
+    "delivered": "डिलीवर्ड",
+    "cancelled": "रद्द"
+  },
+  "shipment": {
+    "origin": "मूल स्थान",
+    "destination": "गंतव्य",
+    "status": "स्थिति",
+    "eta": "अनुमानित समय",
+    "carrier": "कैरियर",
+    "progress": "प्रगति",
+    "complete": "पूर्ण",
+    "details": "शिपमेंट विवरण"
+  }
+}
